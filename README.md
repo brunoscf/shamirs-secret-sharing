@@ -22,7 +22,7 @@ public_keys = SSS.generate_public_keys(SECRET_CODE, QUANT_PUBLIC_KEYS) #The outp
 print(public_keys)
 ```
 
-### How to rescontruct a secret code
+### How to reconstruct a secret code
 ```python
 from shamirs_secret_sharing import ShamirsSecretSharing as SSS
 

@@ -2,7 +2,7 @@ from shamirs_secret_sharing import ShamirsSecretSharing as SSS
 
 # EXAMPLE
 
-SECRET_CODE = 2020  # The secret code must be a integer number
+SECRET_CODE = 2020  # The secret code must be an integer number
 QUANT_PUBLIC_KEYS = 5
 
 keys = SSS.generate_public_keys(SECRET_CODE, QUANT_PUBLIC_KEYS)
